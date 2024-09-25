@@ -129,6 +129,18 @@ _dmarc:
   ttl: 600
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+_gh-ACT-Hack-Club-o.act:
+  - ttl: 600
+    type: TXT
+    value: 346a2cce9c
+_gh-arsenobetaine-o:
+  - ttl: 600
+    type: TXT
+    value: cea65ff579
+_gh-arsenobetaine-o.arsenic:
+  - ttl: 600
+    type: TXT
+    value: 1f595876ef
 _github-challenge-ALOPB-Hack-Club-org.alopb:
   - ttl: 600
     type: TXT
@@ -164,6 +176,10 @@ _github-challenge-rahs-hackclub.rahs:
   - ttl: 600
     type: TXT
     value: f43a54836a
+_github-pages-challenge-arsenic-club.arsenic:
+  - ttl: 600
+    type: TXT
+    value: e46c397c5bd751389a024480dbb07b
 _github-pages-challenge-cghs-hackclub.cghs:
   - ttl: 7200
     type: TXT
@@ -260,6 +276,8 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=ocsa.hackclub.com,642a8568483f6bd767a9
+    - vc-domain-verify=forge.hackclub.com,9dbbce561a571cab8a3b
     - vc-domain-verify=saleh.hackclub.com,cdcc382c0ddbefe586b1
     - vc-domain-verify=gaynormccown.hackclub.com,32e375ae13476a9653b9
     - vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8
@@ -294,6 +312,13 @@ _vercel:
     - vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b
     - vc-domain-verify=donbosco.hackclub.com,8a14878a86451bc1ad03
     - vc-domain-verify=bunker.apocalypse.hackclub.com,75a61be6a0e63f44d7c1
+    - vc-domain-verify=ten-days-of-code.hackclub.com,f4bdc5d47d93a15aea28
+    - vc-domain-verify=athena.hackclub.com,2e501f1e64f9510cc920
+    - vc-domain-verify=luna.hackclub.com,efe00a2321b67aac26d6
+    - vc-domain-verify=lambert.hackclub.com,3e5d64ff4f6d55af2248
+    - vc-domain-verify=bbss.hackclub.com,6c79bb5ffee8bbfd78d2
+    - vc-domain-verify=ascend.hackclub.com,5c143e010cb754d62113
+    - vc-domain-verify=ecolint.hackclub.com,2ce5d27d136e89567e39
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -302,10 +327,18 @@ a5fj644skxexxgvvraqrag5ngcaovcny._domainkey.epochvt:
   ttl: 600
   type: CNAME
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
+act:
+  - ttl: 600
+    type: CNAME
+    value: act-hack-club.github.io.
 adastra:
   - ttl: 600
     type: TXT
     value: bit.ly/adastrahacks
+astra:
+  - ttl: 600
+    type: CNAME
+    value: astra2-ops.github.io.
 airbridge:
   ttl: 600
   type: CNAME
@@ -424,7 +457,15 @@ archived.guide:
   ttl: 600
   type: CNAME
   value: hackclub-guide.netlify.com.
+arsenic:
+  - ttl: 600
+    type: CNAME
+    value: arsenic-club.github.io.
 aryan:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+ascend:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
@@ -468,6 +509,10 @@ astrohacks:
   - ttl: 600
     type: CNAME
     value: www.mmgraphix.net.
+athena:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 austin:
   ttl: 600
   type: CNAME
@@ -544,6 +589,16 @@ bank-wrapped:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+barracoders:
+  - ttl: 600
+    type: CNAME
+    value: barracoders.netlify.app.
+bbss:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
+
 berkeley:
   - ttl: 600
     type: CNAME
@@ -712,6 +767,10 @@ cecclphs:
   - ttl: 3600
     type: TXT
     value: google-site-verification=_c3oOWsKBUxlmaanXeqC1tBTLNZGflwsEMQQiuP-EUM
+celestial:
+  - ttl: 600
+    type: CNAME
+    value: emma-x1.github.io.
 cgc:
   - ttl: 600
     type: CNAME
@@ -786,6 +845,10 @@ conduct-test:
     type: TXT
     value: v=spf1 include:amazonses.com ~all
 contribute:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+counterspell:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
@@ -870,6 +933,18 @@ ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
   ttl: 600
   type: CNAME
   value: ddze3tkuawtlnbviwym44yhrjczhqzxw.dkim.amazonses.com.
+ai33r7fqmoefihzcm3c5yksogilyhsfv._domainkey:
+  ttl: 600
+  type: CNAME
+  value: ai33r7fqmoefihzcm3c5yksogilyhsfv.dkim.amazonses.com.
+65nnw42onodxiiqs6vt2y24prjkd66zj._domainkey:
+  ttl: 600
+  type: CNAME
+  value: 65nnw42onodxiiqs6vt2y24prjkd66zj.dkim.amazonses.com.
+hsqb5f7fwbzachritpekj4hc43east5o._domainkey:
+  ttl: 600
+  type: CNAME
+  value: hsqb5f7fwbzachritpekj4hc43east5o.dkim.amazonses.com.
 ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey.epochvt:
   ttl: 600
   type: CNAME
@@ -905,6 +980,10 @@ devhacks:
         preference: 10
       - exchange: aspmx3.googlemail.com.
         preference: 10
+descend:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 devzat:
   - ttl: 600
     type: A
@@ -961,6 +1040,10 @@ easel:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+ecolint:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 editor:
   ttl: 600
   type: CNAME
@@ -1013,6 +1096,10 @@ eomail:
   ttl: 600
   type: CNAME
   value: custom.eomail2.com.
+eventmasterapi:
+  ttl: 600
+  type: CNAME
+  value: reticulated-journey-r4a6es43tvz06y6xob26ki8j.herokudns.com.
 es:
   - ttl: 600
     type: A
@@ -1110,6 +1197,10 @@ f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey.epochvt:
   ttl: 600
   type: CNAME
   value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
+fa:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 feed.assemble:
   - ttl: 600
     type: CNAME
@@ -1256,6 +1347,10 @@ globalcovid:
   ttl: 600
   type: CNAME
   value: globalcovid.netlify.com.
+golden:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 google._domainkey:
   ttl: 600
   type: TXT
@@ -1288,6 +1383,10 @@ hackaruto:
   - ttl: 600
     type: CNAME
     value: hackaruto.netlify.app.
+hackathon:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 hackathons:
   - ttl: 600
     type: CNAME
@@ -1317,6 +1416,10 @@ hackhour:
   type: CNAME
   value: evolutionary-meadow-v0odnp3h34mtsm07dz1jqkww.herokudns.com.
 hackinux:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+hackpad:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1455,10 +1558,17 @@ hub.zephyr:
 ia:
   type: CNAME
   value: cname.vercel-dns.com.
+ice:
+  - type: CNAME
+    value: hackclub.github.io.
 icons:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+id:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 id.assemble:
   ttl: 600
   type: CNAME
@@ -1496,6 +1606,10 @@ irvine:
         preference: 10
   - ttl: 600
     type: ALIAS
+    value: cname.vercel-dns.com.
+it:
+  - ttl: 600
+    type: CNAME
     value: cname.vercel-dns.com.
 iter:
   ttl: 600
@@ -1594,14 +1708,18 @@ ko:
   ttl: 3600
   type: CNAME
   value: cname.vercel-dns.com.
+lambert:
+  - ttl: 600
+    type: CNAME
+    value: lambert-hackclub.vercel.app.
 langjam:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 lasa:
   - ttl: 600
-    type: A
-    value: 136.62.158.195
+    type: CNAME
+    value: hackclublasa.github.io.
 laslomas:
   - ttl: 600
     type: CNAME
@@ -1643,6 +1761,10 @@ liftoff:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+link.arsenic:
+  - ttl: 600
+    type: CNAME
+    value: cname.short.io.
 linkscape:
   - ttl: 600
     type: CNAME
@@ -1651,7 +1773,15 @@ list:
   - ttl: 600
     type: TXT
     value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
+live.onboard:
+  - ttl: 600
+    type: A
+    value: 188.40.116.216
 lonestar:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+luna:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
@@ -1782,6 +1912,10 @@ milesmac:
   ttl: 600
   type: CNAME
   value: 7b6d4e2f-ac5b-41f5-ab5e-d3c248bcda0c.repl.co.
+milton:
+  ttl: 10000
+  type: CNAME
+  value: miltonhackclub.pages.dev.
 miracosta:
   ttl: 600
   type: CNAME
@@ -1810,6 +1944,10 @@ music.assemble:
     type: A
     value: 192.9.235.142
 ms:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+matchups:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
@@ -1911,7 +2049,7 @@ ocsa:
         preference: 10
   - ttl: 600
     type: ALIAS
-    value: uhegg.github.io.
+    value: cname.vercel-dns.com.
   
 
 
@@ -1942,6 +2080,10 @@ oneditor:
   - ttl: 600
     type: CNAME
     value: oneditor.netlify.app.
+op:
+  - ttl: 600
+    type: CNAME
+    value: optsa.club.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
   - ttl: 600
     type: CNAME
@@ -2014,6 +2156,10 @@ pic._domainkey.mail:
   ttl: 600
   type: TXT
   value: k=rsa
+pinetree:
+  - ttl: 600
+    type: CNAME
+    value: tensixxx.github.io.
 piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey:
   ttl: 600
   type: CNAME
@@ -2061,6 +2207,9 @@ postal.servers:
 posthog:
   type: A
   value: 45.79.174.48
+pm-bounces: # Priate Ship's Return Path verification (Postmark)
+  type: CNAME
+  value: pm.mtasv.net.
 prc:
   - ttl: 600
     type: A
@@ -2188,6 +2337,10 @@ rrhshack:
   - ttl: 600
     type: CNAME
     value: rrhshack.github.io.
+ru:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 s1._domainkey:
   ttl: 600
   type: CNAME
@@ -2476,6 +2629,10 @@ telemetry:
   - ttl: 600
     type: A
     value: 159.89.254.91
+ten-days-of-code:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 testing.mail:
   - ttl: 600
     type: MX
@@ -2604,6 +2761,10 @@ uet:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+uk:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 university:
   - ttl: 600
     type: CNAME
@@ -2679,6 +2840,10 @@ vmc:
 vn6m35np2nwaqdbm4l2potsno5qfnfz3._domainkey: # for loops.so dkim
   - type: CNAME
     value: vn6m35np2nwaqdbm4l2potsno5qfnfz3.dkim.amazonses.com.
+waka:
+  - ttl: 600
+    type: CNAME
+    value: perpendicular-skunk-v36lghvkpfqlpajkpm6otfzl.herokudns.com.
 warsaw:
   - ttl: 600
     type: CNAME
@@ -2818,8 +2983,34 @@ codecafe:
   type: CNAME 
   value: cname.vercel-dns.com.
 
-internal:
+team:
 - ttl: 600
-  type: A
-  value: 104.131.182.116
+  type: CNAME
+  value: walrus-app-ynr6x.ondigitalocean.app.
   
+syria:
+  - ttl: 600
+    type: CNAME
+    value: hackclub-syria.github.io.
+
+takeout:
+  - ttl: 600
+    type: A
+    value: 68.183.252.105
+
+shipment-viewer:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+for-reviewers:
+   - ttl: 600
+     type: CNAME
+     value: souptik-samanta.github.io.
+retrospect:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+gps:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
